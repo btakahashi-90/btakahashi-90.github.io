@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Idle Game – Duck Dolphin Studios</title>
   <link rel="stylesheet" href="/style.css" />
+  <link rel="stylsheet" href="game.css" />
 </head>
 <body>
   <!-- Navigation gets injected here -->
@@ -12,12 +13,52 @@
   <header>
     <h1>Alpha Build – Be Ready to Wipe: #stillpoopen</h1>
     <p>This is a disgrace to real idle games. Proceed at your own risk.</p>
+    <h3>WARNING: There are currently no implemented limiters. Auto-click at your own risk</h3>
   </header>
 
   <main>
     <section>
-      <p><em>Nothing works yet. But someday... you will click a tree.</em></p>
+      <p><em>Nothing works yet. But someday... you will click a tree. Maybe even today...</em></p>
     </section>
+    <section>
+      <p>Resources:</p>
+      <ul>
+        <li>
+		Wood: <span id="wood-count">0</span>
+		<button id="gather-wood">
+<pre>
+/\
+//\\
+/||||\
+||
+</pre>
+		</button>
+	</li>
+        <li>Stone: <span id="stone-count">0</span>
+		<button id="gather-stone">
+<pre>
+___
+ /   \\
+ |     |
+\\___/
+</pre>
+		</button>
+	</li>
+        <li>Fish: <span id="fish-count">0</span>
+		<button id="gather-fish">
+<pre>
+&gt;&lt;(((*&gt;
+</pre>
+		</button>
+	</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Log:</h3>
+      <div id="log" style="background:#222; padding:1em; height:200px; overflow-y:auto; font-family:monospace;"></div>
+    </section>
+
   </main>
 
   <footer>
@@ -25,6 +66,7 @@
   </footer>
 
   <script src="/main.js"></script>
+  <script src="game.js"></script>
 </body>
 </html>
 
