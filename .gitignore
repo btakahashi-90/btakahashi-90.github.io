@@ -1,0 +1,28 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node modules (in case you add tooling later)
+node_modules/
+
+# Editor/IDE junk
+.vscode/
+*.code-workspace
+
+# Logs and temporary
+*.log
+npm-debug.log*
+
+# Build / dist folders (if you later generate files)
+dist/
+build/
+
+# Project-specific
+idle-game/data/*
+!idle-game/data/.gitkeep  # Keep the folder structure but ignore files
+
+# Personal backup or cache folders
+*.bak
+*.tmp
+.cache/
+
