@@ -25,4 +25,4 @@ idle-game/data/*
 *.bak
 *.tmp
 .cache/
-
+*_backup
