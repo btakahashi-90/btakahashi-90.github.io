@@ -1,37 +1,37 @@
 body {
-  font-family: monospace;
-  background: #111;
-  color: #ddd;
-  margin: 0;
-  padding: 2rem;
+    font-family: monospace;
+    background: #111;
+    color: #ddd;
+    margin: 0;
+    padding: 2rem;
 }
 
 h1 {
-  color: #f55;
-  font-size: 1.5rem;
+    color: #f55;
+    font-size: 1.5rem;
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 nav li {
-  margin: 0.5rem 0;
+    margin: 0.5rem 0;
 }
 
 a {
-  color: #8af;
-  text-decoration: none;
+    color: #8af;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 footer {
-  margin-top: 3rem;
-  font-size: 0.8rem;
-  color: #666;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    color: #666;
 }
 
