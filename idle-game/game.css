@@ -7,7 +7,7 @@ button pre {
     padding: 0;
 }
 button {
-     text-align: center;
+    text-align: center;
     font-family: monospace;
     font-size: 1rem;
     line-height: 1.1;
@@ -19,3 +19,16 @@ button {
     cursor: pointer;
 }
 
+.progress-container {
+    background: #444;
+    height: 6px;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: limegreen;
+    transition: width 0.2s linear;
+}
